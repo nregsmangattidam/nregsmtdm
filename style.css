@@ -41,7 +41,7 @@ a{
     text-align: center;
     color: darkmagenta;
 }
-img{
+#logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -62,4 +62,12 @@ img{
   animation-iteration-count: infinite;
   width: 800%;
   }
-
+#nmms{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30%;
+  }
+  h5{
+    color: crimson;
+  }
