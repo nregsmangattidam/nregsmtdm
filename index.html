@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>തൊഴിലുറപ്പ് പദ്ധതി മാങ്ങാട്ടിടം </title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylejc.css">
 <body>
 </head>
 <div  id="heading"> <img src="nregalogo.jpg" id="logo">
@@ -32,13 +33,10 @@
 <div>
     <a href="http://mnregaweb4.nic.in/netnrega/View_NMMS_atten_date_dtl.aspx?page=B&flag=I&short_name=KL&state_name=KERALA&state_code=16&district_name=KANNUR&district_code=1602&block_name=Kuthuparamba&block_code=1602006&panchayat_name=Mangattidam&panchayat_code=1602006004&fin_year=2022-2023&AttendanceDate=0&source=&Digest=3OtyVr5lCDuWTnXjFepDSQ">
         NMMS ആപ്ലിക്കേഷൻ ഉപയോഗിച്ച് ഹാജർ രേഖപ്പെടുത്തിയ പ്രവൃത്തികൾ 
-    </a> <br>
-    <br>
-    <br>
+    </a>
     <a href="https://mnregaweb4.nic.in/netnrega/citizen_html/demregister.aspx?lflag=eng&page=B&state_name=KERALA&state_code=16&district_name=KANNUR&district_code=1602&block_name=Kuthuparamba&block_code=1602006&fin_year=2022-2023&source=national&Digest=7DZI/4V7E/x+VOz3Tz8ZEQ" >
         ഈ സാമ്പത്തിക വർഷത്തെ തൊഴിൽ ദിനങ്ങൾ - അവലോകനം 
     </a>
-    <br>
 <h3>
 
     Staff Details <hr>
@@ -65,7 +63,7 @@
         </li>
     </ul>
 </div>
-<div id="jobcard">
+<div id="jobcard1">
     <a href="jc.html" target="_blank" id="jc"> 
         നിലവിൽ തൊഴിൽകാർഡ് എടുത്ത വ്യക്തികളും അവരുടെ തൊഴിൽകാർഡ് നമ്പറും ലഭിക്കുവാൻ ഇവിടെ ക്ലിക്ക് ചെയ്യുക 
     </a>
@@ -360,7 +358,48 @@
     </table>
     
 </div>
+<hr>
 
+<center> 
+    <div>
+        <h3> <p>മാങ്ങാട്ടിടം പഞ്ചായത്തിൽ രജിസ്റ്റർ ചെയ്തിട്ടുള്ള തൊഴിൽകാർഡ് സംബന്ധിച്ച വിവരങ്ങൾ </p>
+        
+        </h3>
+    </div>
+</center>
 
+<center>
+    <form onsubmit="return jobCard()">
+        <label>
+            വാർഡ് നമ്പർ
+        </label>
+        <br>
+        <br>
+        <input type="number" id="ward" required>
+        <br>
+        <br>
+
+        <label>
+            തൊഴിൽകാർഡ് നമ്പർ
+        </label>
+        <br>
+        <br>
+        <input type="number" id="jobcard" required>
+       
+    </form>
+    <br>
+    
+</center>
+   
+
+    
+    <br>
+    <center><button onclick="jobCard()" >Submit</button></center> 
+    <hr>
+    <footer>
+        <p>Author: NREGS Cell Mangattidam GP<br>
+        <a href="nregsdeokut.man@gmail.com">nregsdeokut.man@gmail.com</a></p>
+      </footer>
+    <script src="jobcard.js"></script>
 </body>
 </html>
